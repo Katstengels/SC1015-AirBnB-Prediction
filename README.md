@@ -22,7 +22,7 @@ The new variables are:
 
 
 ## [Data Visualisation](data-visualization-EDA.ipynb)
-With the cleaned and improved dataset, we visualised them through various graphs and diagrams. Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
+With the cleaned and improved dataset, we visualised them through various graphs, diagrams, and an [interactive map](interactive-map.ipynb). Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
 
 The predictors that we use are:
 - minimum_nights
