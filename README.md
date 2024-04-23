@@ -46,6 +46,9 @@ We split the data into train and test sets. With the train set, we initiated mac
 - There is a need to consider data types when choosing a model to use
 - How to make use of various models to predict price
 
+## Future improvement
+Random Forest Regressor model is performing significantly better on the training set compared to the test set. This discrepancy between the training and test performance is a common issue known as overfitting. Our approach to improve this is by hyperparameter tuning and cross-validation.
+
 ## References:
 - <https://www.askpython.com/python/examples/mape-mean-absolute-percentage-error>
 - <https://stats.stackexchange.com/questions/142873/how-to-determine-the-accuracy-of-regression-which-measure-should-be-used>
