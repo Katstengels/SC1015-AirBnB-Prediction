@@ -5,15 +5,17 @@
 2. @katstengels
 
 ## About
-In this SC1015 project, we analysed AirBnB data from and applied machine learning based on the given data
+In this SC1015 project, we analysed AirBnB data from https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data and applied machine learning to make prediction based on the given information.
+
 
 ## [Data Extraction](data-extraction.ipynb)
-We aim to predict the price of a given AirBnB. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we calculated a few new variables that could help us in our future analysis:
+We aim to predict the price of a given AirBnB in New York. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we calculated a few new variables that could help us in our future analysis:
 - distance_from_center
 - room_type_encoded
 - neighbourhood_group_encoded
 - booking_density
 - availability_ratio
+
 
 ## [Data Visualisation](data-visualization-EDA.ipynb)
 With the cleaned and improved dataset, we visualised them trough various graphs and diagrams. Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
@@ -31,8 +33,9 @@ The predictors that we use are:
 - availability_ratio
 
 
-## [Machine Learning]
+## [Machine Learning](machine-learning.ipynb)
 We split the data into train and test sets. With the train set, we initiated machine learning with the XGBoost Gradient Boosting Machine and the random forest regression model. With our models completed, we tested our model with the test set and analysed the accuracy of it's prediction.
+
 
 ## What did we learn?
 - The importance of data cleaning to prevent an inaccurate or invalid production
