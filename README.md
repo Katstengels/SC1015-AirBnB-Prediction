@@ -42,9 +42,10 @@ We split the data into train and test sets. With the train set, we initiated mac
 
 
 ## What did we learn?
-- The importance of data cleaning to prevent an inaccurate or invalid production
+- The importance of data cleaning to prevent an inaccurate or invalid prediction
 - There is a need to consider data types when choosing a model to use
-- How to make use of various models to predict price
+- Picking the most appropriate and accurate model to make a decision
+- Sometimes adjustments and limitations need to be imposed to improve accuracy
 
 ## Future improvement
 Our Random Forest Regressor model is performing significantly better on the training set compared to the test set. We learnt that this discrepancy between the training and test performance is a common issue known as overfitting. To improve this, we can make use of hyperparameter tuning and cross-validation in the future.
