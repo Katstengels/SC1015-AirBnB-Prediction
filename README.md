@@ -47,7 +47,7 @@ We split the data into train and test sets. With the train set, we initiated mac
 - How to make use of various models to predict price
 
 ## Future improvement
-Random Forest Regressor model is performing significantly better on the training set compared to the test set. This discrepancy between the training and test performance is a common issue known as overfitting. Our approach to improve this is by hyperparameter tuning and cross-validation.
+Our Random Forest Regressor model is performing significantly better on the training set compared to the test set. We learnt that this discrepancy between the training and test performance is a common issue known as overfitting. To improve this, we can make use of hyperparameter tuning and cross-validation in the future.
 
 ## References:
 - <https://www.askpython.com/python/examples/mape-mean-absolute-percentage-error>
