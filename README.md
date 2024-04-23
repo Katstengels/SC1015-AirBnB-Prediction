@@ -1,8 +1,8 @@
 # AirBnB Price Predictor
 
 ## Contributor
-1. @khansaputri28
-2. @katstengels
+1. Khansa Putri Nugraha (U2320572K)
+2. Odilia Kathleen Gunawan (U2321163G)
 
 ## About
 In this SC1015 project, we analysed AirBnB data from https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data and applied machine learning to make prediction based on the given information.
