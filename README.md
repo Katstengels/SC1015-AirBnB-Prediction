@@ -8,7 +8,16 @@
 In this SC1015 project, we analysed AirBnB data from and applied machine learning based on the given data
 
 ## [Data Extraction](data-extraction.ipynb)
-We aim to predict the price of a given AirBnB. To do this, we cleaned the dataset by removing duplicates and invalid inputs, visualised the data through various graphs and diagrams, then found correlation between the given data of AirBnB specifications and its price to find the most relevant predictors to predict their respective prices.
+We aim to predict the price of a given AirBnB. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we calculated a few new variables that could help us in our future analysis:
+- distance_from_center
+- room_type_encoded
+- neighbourhood_group_encoded
+- booking_density
+- availability_ratio
+
+## [Data Visualisation](data-visualization-EDA.ipynb)
+With the cleaned and improved dataset, we visualised them trough various graphs and diagrams. Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
+
 The predictors that we use are:
 - minimum_nights
 - number_of_reviews
@@ -21,4 +30,11 @@ The predictors that we use are:
 - booking_density                
 - availability_ratio
 
-Then, we split the data into train and test sets. With the train set, we initiated machine learning with the XGBoost Gradient Boosting Machine and the random forest regression model. With our models completed, we tested our model with the test set and analysed the accuracy of it's prediction.
+
+## [Machine Learning]
+We split the data into train and test sets. With the train set, we initiated machine learning with the XGBoost Gradient Boosting Machine and the random forest regression model. With our models completed, we tested our model with the test set and analysed the accuracy of it's prediction.
+
+## What did we learn?
+- The importance of data cleaning to prevent an inaccurate or invalid production
+- There is a need to consider data types when choosing a model to use
+- How to make use of various models to predict price
