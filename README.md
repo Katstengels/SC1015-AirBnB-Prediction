@@ -55,5 +55,4 @@ Our Random Forest Regressor model is performing significantly better on the trai
 - <https://www.kaggle.com/code/faridaelhusseinyy/ml-project-final#Data-cleaning>
 - <https://github.com/nicklimmm/movie-analysis>
 - <https://www.kaggle.com/code/deveshrevankar/food-delivery-customer-churn-prediction-97-acc>
-- <https://slidesgo.com/theme/spring-season-theme-minimalist#position-1&rs=home-latest>
 - <https://slidesgo.com/theme/spring-season-theme-minimalist>
