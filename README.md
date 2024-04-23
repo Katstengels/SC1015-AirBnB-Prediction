@@ -5,11 +5,13 @@
 2. Odilia Kathleen Gunawan (U2321163G)
 
 ## About
-In this SC1015 project, we analysed AirBnB data from https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data and applied machine learning to make prediction based on the given information.
+In this SC1015 project, we analysed AirBnB data from [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data) and applied machine learning to make prediction based on the given information.
 
 
 ## [Data Extraction](data-extraction.ipynb)
-We aim to predict the price of a given AirBnB in New York. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we calculated a few new variables that could help us in our future analysis:
+We aim to predict the price of a given AirBnB in New York. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we conducted data engineering to calculate a few new variables that could help us in our future analysis.
+
+The new variables are:
 - distance_from_center
 - room_type_encoded
 - neighbourhood_group_encoded
@@ -18,7 +20,7 @@ We aim to predict the price of a given AirBnB in New York. To do this, we cleane
 
 
 ## [Data Visualisation](data-visualization-EDA.ipynb)
-With the cleaned and improved dataset, we visualised them trough various graphs and diagrams. Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
+With the cleaned and improved dataset, we visualised them through various graphs and diagrams. Through that, we found correlation between the given data of AirBnB specifications and its price. Hence, choosing the most relevant predictors to predict their respective prices.
 
 The predictors that we use are:
 - minimum_nights
@@ -41,3 +43,8 @@ We split the data into train and test sets. With the train set, we initiated mac
 - The importance of data cleaning to prevent an inaccurate or invalid production
 - There is a need to consider data types when choosing a model to use
 - How to make use of various models to predict price
+
+## References:
+- <https://www.askpython.com/python/examples/mape-mean-absolute-percentage-error>
+- <https://stats.stackexchange.com/questions/142873/how-to-determine-the-accuracy-of-regression-which-measure-should-be-used>
+- <https://www.kaggle.com/code/faridaelhusseinyy/ml-project-final#Data-cleaning>
