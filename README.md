@@ -7,7 +7,7 @@
 ## About
 In this SC1015 project, we analysed AirBnB data from and applied machine learning based on the given data
 
-## [Data Extraction]
+## [Data Extraction](data-extraction.ipynb)
 We aim to predict the price of a given AirBnB. To do this, we cleaned the dataset by removing duplicates and invalid inputs, visualised the data through various graphs and diagrams, then found correlation between the given data of AirBnB specifications and its price to find the most relevant predictors to predict their respective prices.
 The predictors that we use are:
 - minimum_nights
