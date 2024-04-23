@@ -53,3 +53,4 @@ Our Random Forest Regressor model is performing significantly better on the trai
 - <https://www.askpython.com/python/examples/mape-mean-absolute-percentage-error>
 - <https://stats.stackexchange.com/questions/142873/how-to-determine-the-accuracy-of-regression-which-measure-should-be-used>
 - <https://www.kaggle.com/code/faridaelhusseinyy/ml-project-final#Data-cleaning>
+- <https://github.com/nicklimmm/movie-analysis>
