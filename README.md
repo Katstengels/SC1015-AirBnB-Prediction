@@ -7,6 +7,8 @@
 ## About
 In this SC1015 project, we analysed AirBnB data from [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data) and applied machine learning to make prediction based on the given information.
 
+In face of the recent economic crisis, it has become crucial for us as consummers to be able to make smart economic decisions. However, it is not always so easy to determine the worth of an item. For instance, patrons of AirBnB has expressed their confusion over the fluctuating price of AirBnB units as they are often unable to find a clear distinction between units that they deem cheap, moderate, and expensive. Hence, we wanted to analyse the details of these units and see how they affect their prices. With what we have learnt, we then would like to try to predict prices of other AirBnB in the area to see if they are worth the price compared to others. 
+
 
 ## [Data Extraction](data-extraction.ipynb)
 We aim to predict the price of a given AirBnB in New York. To do this, we cleaned the dataset by removing duplicates and invalid inputs. From the cleaned data, we conducted data engineering to calculate a few new variables that could help us in our future analysis.
