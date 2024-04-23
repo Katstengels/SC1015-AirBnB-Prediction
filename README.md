@@ -1,8 +1,8 @@
 # AirBnB Price Predictor
 
-## Contributor
-1. Khansa Putri Nugraha (U2320572K)
-2. Odilia Kathleen Gunawan (U2321163G)
+## Contributors
+1. Khansa Putri Nugraha (U2320572K) - data extraction, data visualization, EDA, data splitting & resampling, XGBoost
+2. Odilia Kathleen Gunawan (U2321163G) - interactive map, random forest regressor, analysis
 
 ## About
 In this SC1015 project, we analysed AirBnB data from [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data) and applied machine learning to make prediction based on the given information.
