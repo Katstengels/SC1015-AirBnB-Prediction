@@ -1,7 +1,7 @@
 # AirBnB Price Predictor
 
 ## Contributors
-1. Khansa Putri Nugraha (U2320572K) - data extraction, data visualization, EDA, data splitting & resampling, XGBoost
+1. Khansa Putri Nugraha (U2320572K) - data extraction, data visualization, EDA, data resampling, XGBoost
 2. Odilia Kathleen Gunawan (U2321163G) - interactive map, random forest regressor, analysis
 
 ## About
